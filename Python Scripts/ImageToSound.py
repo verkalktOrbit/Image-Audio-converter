@@ -1,6 +1,5 @@
 from PIL import Image
 import time
-import ast
 
 start_time = time.time()
 

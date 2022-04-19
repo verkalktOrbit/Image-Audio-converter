@@ -1,5 +1,4 @@
 from math import ceil, sqrt
-from turtle import color
 from PIL import Image
 import time
 
