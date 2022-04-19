@@ -5,13 +5,13 @@ import ast
 start_time = time.time()
 
 #load Image and it´s pixls
-img = Image.open(r'Image\Mac Miller - Self Cate.png')
+img = Image.open(r'Image\Mac Miller - Self Care.png')
 pix = img.load()
 
 x = -1
 y = 0
 
-with open(r'D:\VS\Python\NFT\mp3\Mac Miller - Self Care.mp3', 'wb') as file:
+with open(r'mp3\Mac Miller - Self Care.mp3', 'wb') as file:
     #go through each pixel
     for i in range(2152 * 2152):
         if i < ((y+1)*2152):

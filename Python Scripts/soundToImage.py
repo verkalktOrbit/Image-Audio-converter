@@ -36,6 +36,6 @@ if __name__ == '__main__':
 
         pix[x, y] = (r,g,b)
 
-    img.save(r'D:\VS\Python\NFT\Image\Mac Miller - Self Care.png')
+    img.save(r'Image\Mac Miller - Self Care.png')
 
     print('=============================\nTime: %s seconds\n=============================' %(time.time() - start_time))
