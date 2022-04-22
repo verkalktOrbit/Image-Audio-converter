@@ -3,7 +3,7 @@ from PIL import Image
 import time
 
 if __name__ == '__main__':
-    start_time = time()
+    start_time = time.time()
     #read the Bytes of the Audio and convert it into hex expression
     file = open(r'mp3\Mac Miller - Self Care.mp3', 'rb')
     content = file.read()
